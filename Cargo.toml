@@ -15,6 +15,9 @@ edition = "2018"
 name = "rsedis"
 doc = false
 
+[dependencies.crossbeam]
+version = "0.7"
+
 [dependencies.config]
 path = "config"
 
